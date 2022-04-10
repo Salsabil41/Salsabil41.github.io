@@ -4,11 +4,44 @@
 <style>
 body{background-color: #b8ecff;
 }
+ul { 
+list-style-type: none; 
+margin: 0; 
+padding: 0; 
+overflow: hidden; 
+background-color: #333; 
+} 
+li { 
+float: left; 
+}
+li a { 
+display: block; 
+color: white; 
+text-align: center; 
+padding: 14px 16px; 
+text-decoration: none; 
+}
+li a:hover:not(.active) { 
+background-color: #111; 
+}
+.active { background-color: #04AA6D; 
+}
 </style>
 </head>
+
+
+
 <body>
 
-<h1>Florida Scrub Jay</h1>
+<h1> Florida Scrub Jay </h1>
+
+
+<ul> 
+<li><a class="active" href="#home">Home</a></li> <li><a href="#causes">Causes</a></li>
+<li><a href="#effects">Effects</a></li>
+<li><a href="#how to help">How to Help</a></li> 
+</ul> 
+
 <h3>This bird, native to Florida, has a decreasing population; it's endangered.</h3>
 <hr>
 <h4>Description</h4>
@@ -29,5 +62,6 @@ body{background-color: #b8ecff;
 <img src="https://upload.wikimedia.org/wikipedia/commons/0/03/Blue_Jay_%28210140531%29.jpeg" alt="blue jay" width="200"> 
 <h4>Are they related to Blue Jays?</h4>
 <p>Despite how similar the two birds look, scrub jays (on the left) are a whole different species. The scientific name for the scrub jay is Aphelocoma coerulescens and for the blue jay (ob the right) it is Cyanocitta cristata. Also, it can be observed that the scrub jay does not have a crest nor black stripes on its tail like the blue jay. </p>
+
 </body>
 </html>
